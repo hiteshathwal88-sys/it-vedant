@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/it-vedant/static/css/main.666f62d0.css",
-    "main.js": "/it-vedant/static/js/main.82dd4703.js",
+    "main.css": "/it-vedant/static/css/main.a6ec82d9.css",
+    "main.js": "/it-vedant/static/js/main.47da7b91.js",
     "static/js/453.75cc8a1a.chunk.js": "/it-vedant/static/js/453.75cc8a1a.chunk.js",
     "static/media/WhatsApp Image 2025-11-10 at 12.20.27_e4e2800b.jpg": "/it-vedant/static/media/WhatsApp Image 2025-11-10 at 12.20.27_e4e2800b.fbff8333a278a666d14c.jpg",
     "static/media/WhatsApp Image 2025-11-10 at 11.53.20_a34ba07f.jpg": "/it-vedant/static/media/WhatsApp Image 2025-11-10 at 11.53.20_a34ba07f.eccb8a63735a8375dcaf.jpg",
@@ -11,12 +11,12 @@
     "static/media/WhatsApp Image 2025-11-10 at 12.42.15_7d52f6e4.jpg": "/it-vedant/static/media/WhatsApp Image 2025-11-10 at 12.42.15_7d52f6e4.6ce48d93e30f1761eae1.jpg",
     "static/media/WhatsApp Image 2025-11-10 at 11.53.17_6ca6b222.jpg": "/it-vedant/static/media/WhatsApp Image 2025-11-10 at 11.53.17_6ca6b222.7dad32aba7e2e1631068.jpg",
     "index.html": "/it-vedant/index.html",
-    "main.666f62d0.css.map": "/it-vedant/static/css/main.666f62d0.css.map",
-    "main.82dd4703.js.map": "/it-vedant/static/js/main.82dd4703.js.map",
+    "main.a6ec82d9.css.map": "/it-vedant/static/css/main.a6ec82d9.css.map",
+    "main.47da7b91.js.map": "/it-vedant/static/js/main.47da7b91.js.map",
     "453.75cc8a1a.chunk.js.map": "/it-vedant/static/js/453.75cc8a1a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.666f62d0.css",
-    "static/js/main.82dd4703.js"
+    "static/css/main.a6ec82d9.css",
+    "static/js/main.47da7b91.js"
   ]
 }
