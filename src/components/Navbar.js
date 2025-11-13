@@ -12,7 +12,9 @@ function Navbar() {
           <Link to="/About" className="btn">About</Link>
           <Link to="/Gallery" className="btn">Gallery</Link>
           <Link to="/Celebration" className="btn">Celebrate</Link>
-          <Link to="/upload" className="nav-btn">Upload</Link>
+           <Link to="/history" className="nav-btn yellow-btn">History</Link> {/* 🟡 Yellow */}
+          <Link to="/upload" className="nav-btn yellow-btn">Upload</Link>
+  
 
 
         </div>

@@ -21,15 +21,20 @@ body {
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
 }
 
-
 .navbar {
-  background-color: #ffcc70;
-  padding: 1rem;
+  position: fixed;
+  top: 70px; /* sits just below the header */
+  left: 0;
+  width: 100%;
+  background: linear-gradient(90deg, #ffcc70, #ff6f61);
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  border-bottom: 2px solid #fbb03b;
+  padding: 10px 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  z-index: 1001;
 }
+
 
 .navbar h1 {
   margin: 0;

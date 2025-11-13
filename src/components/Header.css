@@ -1,15 +1,18 @@
-.header {
+.header-bar {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  background: linear-gradient(90deg, #ffcc70, #ff6f61);
+  height: 70px;
+  background: linear-gradient(90deg, #ff6f61, #ffcc70);
   color: white;
-  text-align: center;
-  padding: 15px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-size: 1.8rem;
   font-weight: bold;
   letter-spacing: 1px;
-  z-index: 1001; /* higher than navbar */
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  z-index: 1002;
 }

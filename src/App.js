@@ -5,7 +5,9 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Gallery from "./components/Gallery";
 import Celebration from "./components/Celebration";
+import History from "./components/History"; // 🆕 Import
 import UploadImage from "./components/UploadImage";
+import "./App.css";
 
 
 
@@ -19,6 +21,7 @@ function App() {
           <Route path="/About" element={<About />} />
           <Route path="/Gallery" element={<Gallery />} />
           <Route path="/Celebration" element={<Celebration />} />
+          <Route path="/history" element={<History />} /> {/* 🆕 Added */}
           <Route path="/upload" element={<UploadImage />} />
 
 

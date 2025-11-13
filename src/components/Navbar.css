@@ -15,6 +15,20 @@
   padding: 50px;
   border-radius: 20px;
 }
+.navbar {
+  position: fixed;
+  top: 70px; /* sits just below the header */
+  left: 0;
+  width: 100%;
+  background: linear-gradient(90deg, #ffcc70, #ff6f61);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  z-index: 1001;
+}
+
 
 .title {
   font-size: 2.5rem;
@@ -233,4 +247,35 @@
   letter-spacing: 1px;
   z-index: 1001; /* higher than navbar */
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+/* Common button style */
+.nav-btn {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  margin: 0 20px;
+  font-size: 1.1rem;
+  padding: 8px 14px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect for all buttons */
+.nav-btn:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  transform: scale(1.05);
+}
+
+/* 🟡 Yellow buttons for Upload & History */
+.yellow-btn {
+  background-color: #ffeb3b;
+  color: #333;
+  font-weight: 700;
+  border: 2px solid #fdd835;
+}
+
+.yellow-btn:hover {
+  background-color: #fff176;
+  color: black;
+  transform: scale(1.08);
 }
